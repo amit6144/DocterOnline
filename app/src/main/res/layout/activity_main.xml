@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="150dp"
+        app:cardElevation="30dp"
+        android:layout_width="210dp"
+        android:layout_height="210dp">
+     <ImageView
+         android:src="@drawable/logo"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+     </ImageView>
+    </androidx.cardview.widget.CardView>
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="Enter Email or Username"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="Enter Password"
+        android:id="@+id/paswordlogin"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Login"
+            android:layout_marginRight="20dp"
+            android:id="@+id/loginlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:text="New Register"
+            android:id="@+id/registerlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+    <Button
+        android:id="@+id/docterloginbtn"
+        android:layout_marginHorizontal="80dp"
+        android:text="Docter Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>

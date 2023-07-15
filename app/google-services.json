@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "952528318221",
+    "project_id": "prathamandroid",
+    "storage_bucket": "prathamandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952528318221:android:74ba67098be9227a874a44",
+        "android_client_info": {
+          "package_name": "com.example.docteronline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952528318221-d0176dkpvnr82hnrqeenodqfe4e8sefb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8eqMFoMg9ed8GCa7_D8PQHQ5NzRdROlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952528318221-d0176dkpvnr82hnrqeenodqfe4e8sefb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952528318221:android:91b91e5cf209ab5a874a44",
+        "android_client_info": {
+          "package_name": "com.example.patientdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952528318221-d0176dkpvnr82hnrqeenodqfe4e8sefb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8eqMFoMg9ed8GCa7_D8PQHQ5NzRdROlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952528318221-d0176dkpvnr82hnrqeenodqfe4e8sefb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
